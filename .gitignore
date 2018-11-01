@@ -6,3 +6,9 @@
 lib/
 
 out/
+
+build/
+
+.gradle/
+
+**/.DS_Store

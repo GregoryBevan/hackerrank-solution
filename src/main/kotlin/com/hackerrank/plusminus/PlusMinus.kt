@@ -1,5 +1,7 @@
 package com.hackerrank.plusminus
 
+import java.util.*
+
 class PlusMinus {
     fun plusMinus(arr: Array<Int>) {
         arr.groupByTo(mutableMapOf("positive" to mutableListOf(), "negative" to mutableListOf(), "null" to mutableListOf())) {
@@ -9,6 +11,6 @@ class PlusMinus {
                 it == 0 -> "null"
                 else -> throw Exception()
             }
-        }.forEach {println(String.format("%.6f", it.value.count() / arr.size.toDouble())) }
+        }.forEach {println(String.format(Locale.ENGLISH, "%.6f", it.value.count() / arr.size.toDouble())) }
     }
 }
