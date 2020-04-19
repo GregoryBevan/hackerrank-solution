@@ -1,6 +1,5 @@
 package com.hackerrank.verybigsum
 
-import com.hackerrank.verybigsum.VeryBigSum
 import org.junit.jupiter.api.Test
 import kotlin.test.expect
 
