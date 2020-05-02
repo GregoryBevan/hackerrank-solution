@@ -1,6 +1,6 @@
 package com.hackerrank.warmup
 
-import org.junit.jupiter.api.Test
+import kotlin.test.Test
 import kotlin.test.expect
 
 class JumpingOnTheCloudsTest {
