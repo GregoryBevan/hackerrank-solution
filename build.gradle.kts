@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.3.72"
+    kotlin("jvm") version "1.4.10"
 }
 
 repositories {
@@ -16,4 +16,5 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.6.2")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.6.2")
+    testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.22")
 }
